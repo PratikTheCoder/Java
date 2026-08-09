@@ -1,0 +1,3 @@
+Employee ID: 101
+Name: Pratik
+Salary: 50000
