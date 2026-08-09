@@ -1,25 +1,27 @@
 package Experiment11;
-class Light {
 
-    void turnOn() {
-        System.out.println("Light is ON.");
+interface Switchable {
+    void turnOn();
+}
+
+class Light implements Switchable {
+    public void turnOn() {
+        System.out.println("Light is ON");
     }
 }
 
-class Fan {
-
-    void turnOn() {
-        System.out.println("Fan is ON.");
+class Fan implements Switchable {
+    public void turnOn() {
+        System.out.println("Fan is ON");
     }
 }
 
 public class Exp11b {
     public static void main(String[] args) {
+        Light l = new Light();
+        Fan f = new Fan();
 
-        Light light = new Light();
-        Fan fan = new Fan();
-
-        light.turnOn();
-        fan.turnOn();
+        l.turnOn();
+        f.turnOn();
     }
 }

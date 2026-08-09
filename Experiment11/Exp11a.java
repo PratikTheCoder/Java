@@ -1,43 +1,30 @@
 package Experiment11;
-class Student {
-    int rollNo;
-    String name;
+interface Printable {
+    void print();
+}
 
-    Student(int rollNo, String name) {
-        this.rollNo = rollNo;
-        this.name = name;
-    }
-
-    void printDetails() {
+class Student implements Printable {
+    public void print() {
         System.out.println("Student Details");
-        System.out.println("Roll No : " + rollNo);
-        System.out.println("Name    : " + name);
+        System.out.println("Name: Pratik");
+        System.out.println("Roll No: 101");
     }
 }
 
-class Employee {
-    int empId;
-    String name;
-
-    Employee(int empId, String name) {
-        this.empId = empId;
-        this.name = name;
-    }
-
-    void printDetails() {
+class Employee implements Printable {
+    public void print() {
         System.out.println("Employee Details");
-        System.out.println("Employee ID : " + empId);
-        System.out.println("Name        : " + name);
+        System.out.println("Name: Rahul");
+        System.out.println("ID: 201");
     }
 }
 
 public class Exp11a {
     public static void main(String[] args) {
-        Student s = new Student(101, "Pratik");
-        Employee e = new Employee(201, "Rahul");
+        Student s = new Student();
+        Employee e = new Employee();
 
-        s.printDetails();
-        System.out.println();
-        e.printDetails();
+        s.print();
+        e.print();
     }
 }
