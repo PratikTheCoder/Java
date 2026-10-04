@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "Experiment14",
+        "Experiment3",
+        "Experiment6"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Admin\\Downloads\\mysql-connector-j-26.7.0\\mysql-connector-j-26.7.0\\mysql-connector-j-26.7.0.jar"
+    ]
+}
