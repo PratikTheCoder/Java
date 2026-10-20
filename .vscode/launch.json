@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exp27bServer",
+            "request": "launch",
+            "mainClass": "Experiment27.Exp27bServer",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp27bClient",
+            "request": "launch",
+            "mainClass": "Experiment27.Exp27bClient",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp27a",
+            "request": "launch",
+            "mainClass": "Experiment27.Exp27a",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp27aServer",
+            "request": "launch",
+            "mainClass": "Experiment27.Exp27aServer",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp26b",
+            "request": "launch",
+            "mainClass": "Experiment26.Exp26b",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp25a",
+            "request": "launch",
+            "mainClass": "Experiment25.Exp25a",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp26a",
+            "request": "launch",
+            "mainClass": "Experiment26.Exp26a",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exp25b",
+            "request": "launch",
+            "mainClass": "Experiment25.Exp25b",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
